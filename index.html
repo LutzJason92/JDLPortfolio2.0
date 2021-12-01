@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Get to know Jason Daniel Lutz</title>
+  </head>
+
+  <body>
+    <!-- nav bar elements  -->
+    <nav
+      class="navbar navbar-light bg-transparent special-nav"
+      style="height: 125px"
+    >
+      <a class="navbar-brand mx-5" href="#"
+        ><h1 style="font-weight: 800">Jason Daniel Lutz</h1></a
+      >
+
+      <container class="btnContainer d-flex">
+        <button
+          class="btn btn-outline-dark mx-3 my-1 portfolioButton"
+          type="submit"
+        >
+          <a href="#portfolioSection">Portfolio</a>
+        </button>
+        <button
+          class="btn btn-outline-dark mx-3 my-1 my-sm-1 resumeButton"
+          type="submit"
+        >
+          <a
+            href="https://drive.google.com/file/d/1G0Gct3I7aLS30GZ6KtgGqgvqXxTA0DSe/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Resume</a
+          >
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-dark mx-3 my-1 contactButton"
+          data-bs-toggle="modal"
+          data-bs-target="#contactModal"
+        >
+          Contact Me
+        </button>
+      </container>
+    </nav>
+    <!-- About Me  -->
+    <div class="container">
+      <div class="row" style="justify-content: space-between">
+        <div class="col-lg-4 col-md-3 col-sm-2 text-center">
+          <div class="mb-3 mt-3">
+            <img
+              class="headshot"
+              src="./assets/images/headshot.png"
+              alt="headshot"
+            />
+          </div>
+        </div>
+        <!-- About Me Card -->
+
+        <div class="col-lg-8 col-md-6 col-sm-3 text-center">
+          <div class="card border-dark mb-3 mt-3" style="height: fit-content">
+            <div
+              class="card-header bg-transparent border-dark"
+              style="text-align: center"
+            >
+              <h2 style="font-weight: 800">About Me</h2>
+            </div>
+            <div class="card-body text-dark" style="text-align: center">
+              <h4 class="card-title">
+                My Mission: create a positive change in the world through the
+                tools I create, the culture I inspire and the environments I
+                operate within.
+              </h4>
+              <h5>
+                I am currently enrolled in a Full Stack web Development Bootcamp
+                at the University of Denver. After years of facilitating guest
+                experiences, mixing delicious adult beverages, and fabricating
+                products or parts from various materials, I decided to shift my
+                focus from creating physical assets to digital assets and have
+                begun the thrilling journey of Web Development. Read on to see
+                my porfolio and highlights of my past work experience.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- headshot -->
+    </div>
+
+    <!-- Rotating Image -->
+    <div class="container mb-5 mt-4">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="mb-3 mt-3">
+            <a
+              href="https://drive.google.com/file/d/1h4v-loJVFdJobFYSt-rAsU1NVRQx2SLF/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/images/VVMatrixRotating.png"
+                class="rotate"
+                width="350px"
+                height="350px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coding Portfolio -->
+
+    <div class="container card mb-5" id="portfolioSection">
+      <div class="row">
+        <div class="col-12">
+          <div
+            class="carousel-header d-none d-md-block"
+            style="text-align: center"
+          >
+            <h1>2021 Coding Portfolio</h1>
+            <p>Click the Titles to vist the deployed webpage.</p>
+          </div>
+
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="assets/images/ClassProject.png"
+                  class="d-block w-100"
+                  alt="..."
+                  id="carouselImg"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <a
+                    href="https://kerryeames-vris.github.io/ClassProject1-FeedMe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h3>FeedMe App</h3></a
+                  >
+                  <p>
+                    A convienent and helpful Web Application that displays Users
+                    recipes or cocktails fetched from 3rd party API's based on
+                    ingredients they submit through a form.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="assets/images/CodeQuiz.png"
+                  class="d-block w-100"
+                  alt="..."
+                  id="carouselImg"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <a
+                    href="https://lutzjason92.github.io/JDLCodeQuiz/ "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h3>Code Quiz</h3></a
+                  >
+                  <p>
+                    A timed Coding Quiz made with Vanilla JS, CSS and HTML that
+                    renders questions, keeps score and prompts for User Initials
+                    upon completion.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/DayPlanner.png"
+                  class="d-block w-100"
+                  alt="..."
+                  id="carouselImg"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <a
+                    href="https://lutzjason92.github.io/JDLDayPlanner/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h4>Day Planner</h4></a
+                  >
+                  <p>
+                    A useful Day Planner which has incorporated Moment() time
+                    functions that stores the Users entry in Local Storage so it
+                    persists between sessions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Cards -->
+    <div class="container">
+      <div class="row" style="justify-content: space-evenly; margin-top: 30px">
+        <!-- start cards -->
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card experience-cards">
+            <div class="card-body">
+              <h3 class="card-title" style="text-align: center">Machining</h3>
+              <img
+                class="card-img-top"
+                src="./assets/images/Mach.jpeg"
+                alt="Machining"
+              />
+              <p class="card-text">
+                After teaching myself how to use my own CNC machine in the
+                garage, I decided to pursue a formal Education and went to FRCC
+                in Longmont to earn a Trade Certifictae in Intermittent
+                Machining. I then spent over a year working in various Machining
+                shops where I created Aeropspace parts and Commercial Tension
+                Meters and production run mass produced parts useing CNC Mills,
+                Lathes and Beidgeports.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card experience-cards">
+            <div class="card-body">
+              <h3 class="card-title" style="text-align: center">
+                Entrepreneurship
+              </h3>
+              <img
+                class="card-img-top"
+                src="./assets/images/Entr.JPG"
+                alt="Entrepeneaurship"
+              />
+              <p class="card-text">
+                While working as a server/bartender I conceived an idea for a
+                ground breaking product. I spent a couple years refining my idea
+                and creating a business plan. When I hit a wall due to funding,
+                I sought business partners and secured a sizable investment.
+                With that investment I further developed my product and process
+                which refines botanical extracts into a consistent serving size.
+                I spoke on a Panel in Las Vegas to discuss cannabis products and
+                innovations and gave a Keynote to showcase my research at the
+                CBD.IO expo in November of 2019.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card experience-cards">
+            <div class="card-body">
+              <h3 class="card-title" style="text-align: center">Hospitality</h3>
+              <img
+                class="card-img-top"
+                src="./assets/images/Hosp.jpeg"
+                alt="Hospitality"
+              />
+              <p class="card-text">
+                From Dishwasher to QSR Training Manager to Serving and
+                Bartending, I spent my early to mid 20s in the Restaurant
+                Industry. At a point in my career I was a corprate training
+                manager and traveled the country opening numerous locations for
+                a chain called Protein Bar. At the time of writing I still
+                bartend on the weekends for extra cash here in Denver, Colorado
+                at Tracks Nightclub.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end of cards -->
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="contactModal" class="modal fade" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <!-- Modal content-->
+        <div class="modal-content" style="text-align: center">
+          <div class="modal-header" style="text-align: center">
+            <h4 class="modal-title">Find me on:</h4>
+          </div>
+          <div class="modal-body">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jason-lutz-a0710a191/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/LutzJason92"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/JasDanLut"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/jasdanlut/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </li>
+            <li><a href="mailto:LutzJason92@gmail.com">Email</a></li>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-default"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer
+      class="justify-content-center d-flex flex-row special-footer"
+      style="width: 100%; height: 125px; align-items: center"
+    >
+      <!-- Help Icons -->
+      <container class="" style="padding-right: 15px">
+        <div class="flex-column d-flex" style="text-align: center">
+          <div>
+            <span style="text-align: center">
+              <a>Made with help from:</a>
+            </span>
+          </div>
+          <div>
+            <span style="text-align: center">
+              <img class="icons" src="./assets/images/apple.png" />
+              <img class="icons" src="./assets/images/Git.png" />
+              <img class="icons" src="./assets/images/Google.png" />
+              <img class="icons" src="./assets/images/BS.png" />
+              <img class="icons" src="./assets/images/DU.png" />
+            </span>
+          </div>
+        </div>
+      </container>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
