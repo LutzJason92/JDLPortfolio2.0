@@ -1,6 +1,6 @@
 # JDL-Portfolio2
 
-[Link to Deployed Page](https://lutzjason92.github.io/JDL-Portfolio2/)
+[Link to Deployed Page](https://lutzjason92.github.io/JDLPortfolio2.0/)
 
 ## Professional Portfolio
 
